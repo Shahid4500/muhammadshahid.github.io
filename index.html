@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <script defer src="main.js"></script>
+    <title>Front-end web developer | wordpress expert </title>
+</head>
+
+<body>
+    <div class="w-screen  flex flex-col bg-gray-800">
+        <!-- Header Section -->
+        <header class="w-full relative hidden bg-gray-900 p-6 md:p-5 md:flex justify-between  items-center shadow-lg">
+            <div class="w-[100px]">
+                <img src="/src/assets/images/angular.webp" class="w-full object-contain" alt="">
+            </div>
+            <!-- NavBar section -->
+            <div class="md:top-0 hidden md:right-0 tmd:bg-transparent md:px-2 md:py-0 md:flex md:flex-row  md:gap-7 md:items-center md:justify-center">
+                <nav class="flex md:flex md:flex-row md:justify-end md:items-end justify-center items-center">
+                    <ul class="flex-col md:flex md:flex-row gap-x-11">
+                        <li class="text-[20px] text-slate-200 cursor-pointer hover:text-slate-500">Home</li>
+                        <li class="text-[20px] text-slate-200 cursor-pointer hover:text-slate-500">Service</li>
+                        <li class="text-[20px] text-slate-200 cursor-pointer hover:text-slate-500">About us</li>
+                    </ul>
+                </nav>
+                <button class=" border-[1px] mt-4  md:m-0 border-orange-500 text-gray-300 text-xl  px-14 py-4 rounded-lg shadow-lg hover:bg-orange-300 hover:bg-opacity-20 hover:animate-pulse">Login</button>
+            </div>
+        </header>
+        <!-- Mobile Header  -->
+        <header class="w-full relative bg-gray-900 md:hidden p-6 md:p-5 flex justify-between  items-center shadow-lg">
+            <div class="w-[100px]">
+                <img src="/src/assets/images/angular.webp" class="w-full object-contain" alt="">
+            </div>
+            <!-- NavBar section -->
+            <div class="absolute top-[7.6rem] mx-auto hidden p-6 items-center justify-center border-t-2 border-gray-300 w-full  z-50 bg-gray-900 right-0"
+                id="navigation">
+                <nav class="flex justify-center items-center">
+                    <ul class="flex flex-col gap-6 justify-end items-end w-full">
+                        <li class="text-[20px] border-b-[1px] w-full border-gray-500 text-slate-200 cursor-pointer hover:text-slate-500">Home</li>
+                        <li class="text-[20px] border-b-[1px] w-full border-gray-500 text-slate-200 cursor-pointer hover:text-slate-500">Service</li>
+                        <li class="text-[20px] border-b-[1px] w-full border-gray-500 text-slate-200 cursor-pointer hover:text-slate-500">About us</li>
+                    </ul>
+                </nav>
+                <button class=" border-[1px] mt-4 border-orange-500 text-gray-300 text-xl  px-14 py-4 rounded-lg shadow-lg hover:bg-orange-300 hover:bg-opacity-20 hover:animate-pulse">Login</button>
+            </div>
+            <div  class="w-14 h-auto cursor-pointer">
+                <label id="toggle" class='cursor-pointer relative bg-white w-10 h-1 flex flex-col justify-center items-center' for="menu-toggle">
+                    <div id="ham1" class='absolute  -top-2 w-full bg-white h-1 after:bg-white before:absolute before:w-14 before:h-1'></div>
+                    <div id="ham2" class='absolute  top-2 w-full bg-white h-1 after:bg-white before:absolute before:w-14 before:h-1'></div>
+                </label>
+            </div>
+        </header>
+        <!-- Hero Section -->
+        <main class="bg-[#1c1917]">
+            <section
+                class="flex relative overflow-hidden flex-col bg-[#292524] w-[100%] justify-center items-center md:gap-10 gap-24 py-20 md:flex-row md:justify-center md:items-center md:py-15 md:px-20">
+                <div
+                    class="absolute w-[150%] h-[30rem] md:h-[50rem] grad top-[9rem] bg-pink-500 -rotate-12 z-[1] overflow-hidden">
+                </div>
+                <div
+                    class="flex flex-col bg-gray-800 bg-opacity-50 rounded-xl p-10 w-full z-10 items-center justify-center md:items-start gap-6 md:gap-7 px-10 md:px-10">
+                    <h2 class="text-[25px] md:text-[2.5rem] font-bold font-sans text-gray-50">FULL STACK WEB DEVELOPER
+                    </h2>
+                    <p class="text-[17px] text-gray-50 md:text-[20px]  md:px-0">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Earum tempora commodi tenetur dolorum, ipsum
+                        fugiat aliquam, quae, nulla neque voluptas quo eaque iste autem expedita distinctio dolorem!
+                        Harum,
+                        voluptate possimus?</p>
+                    <div class="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-x-5">
+                        <button
+                            class="bg-transparent border-[1px] border-orange-500 text-gray-200  rounded-lg px-20 py-3 text-[15px] font-semibold hover:bg-orange-300 hover:bg-opacity-20 transition-all duration-300 ">Hire
+                            Me</button>
+                        <button
+                            class="bg-transparent border-[1px] border-orange-500 text-gray-200  rounded-lg px-16 py-3 text-[15px] font-semibold hover:bg-orange-300 hover:bg-opacity-20 transition-all duration-300 "
+                            type="submit">Download CV</button>
+                    </div>
+                </div>
+                <div class="bg-slate-400 z-10 rounded-full md:w-[100%] w-[70%] flex justify-center items-center">
+                    <img class="rounded-full" src="./src/assets/images/pic.png" alt="">
+                </div>
+            </section>
+            <!-- tech Section -->
+            <section id="tech-section"
+                class="w-full bg-[#1c1917] flex gap-8 px-5   md:px-0 md:py-[4rem]  flex-col justify-center mb-[2rem] items-center">
+                <header class="md:w-[60rem] p-[1rem] flex gap-10 flex-col justify-center items-center">
+                    <div
+                        class="w-[100px] h-[100px]  flex justify-center items-center border-[2px] rounded-full border-orange-500">
+                        <img src="./src/assets/images/tech.webp" class="w-[60px] h-[60px]" alt="">
+                    </div>
+                    <h2 class="text-gray-100 md:text-[2rem] tex-[1rem] text-center font-bold">Academind offers
+                        high-quality programming video courses which helped
+                        <strong class="text-[#fa923f] md:text-[2rem] text-[1rem]  font-bold">over 1.5 million
+                            students</strong>
+                        worldwide to learn how to code.
+                    </h2>
+                </header>
+                <ul class="flex justify-between m-auto items-center flex-wrap w-full md:w-[60rem]">
+                    <li class="flex justify-center w-[50%] md:w-[25%]"><img class="w-[80px] h-[100px] object-contain"
+                            src="./src/assets/images/angular.webp" alt=""></li>
+                    <li class="flex justify-center w-[50%] md:w-[25%]"><img class="w-[80px] h-[100px] object-contain"
+                            src="./src/assets/images/react.webp" alt=""></li>
+                    <li class="flex justify-center w-[50%] md:w-[25%]"><img class="w-[80px] h-[100px] object-contain"
+                            src="./src/assets/images/vue.webp" alt=""></li>
+                    <li class="flex justify-center w-[50%] md:w-[25%]"><img class="w-[80px] h-[100px] object-contain"
+                            src="./src/assets/images/javascript.webp" alt=""></li>
+                    <li class="flex justify-center w-[50%] md:w-[25%]"><img class="w-[80px] h-[100px] object-contain"
+                            src="./src/assets/images/nodejs.webp" alt=""></li>
+                    <li class="flex justify-center w-[50%] md:w-[25%]"><img class="w-[80px] h-[100px] object-contain"
+                            src="./src/assets/images/typescript.webp" alt=""></li>
+                    <li class="flex justify-center w-[50%] md:w-[25%]"><img class="w-[80px] h-[100px] object-contain"
+                            src="./src/assets/images/html.webp" alt=""></li>
+                    <li class="flex justify-center w-[50%] md:w-[25%]"><img class="w-[80px] h-[100px] object-contain"
+                            src="./src/assets/images/css.webp" alt=""></li>
+                    <li class="flex justify-center w-[50%] md:w-[25%]"><img class="w-[80px] h-[100px] object-contain"
+                            src="./src/assets/images/ionic.webp" alt=""></li>
+                    <li class="flex justify-center w-[50%] md:w-[25%]"><img class="w-[80px] h-[100px] object-contain"
+                            src="./src/assets/images/flutter.webp" alt=""></li>
+                    <li class="flex justify-center w-[50%] md:w-[25%]"><img class="w-[80px] h-[100px] object-contain"
+                            src="./src/assets/images/python.webp" alt=""></li>
+                    <li class="flex justify-center w-[50%] md:w-[25%]"><img class="w-[80px] h-[100px] object-contain"
+                            src="./src/assets/images/aws.webp" alt=""></li>
+                </ul>
+            </section>
+            <!-- Testimonial section -->
+            <section id="testimonials"
+                class="bg-gray-100 flex flex-col py-4 px-[0.5rem] md:py-[3rem] gap-5 justify-center items-center">
+                <div class="flex flex-col gap-6 text-center">
+                    <h2 class="text-[1.75rem] md:text-[2rem] font-bold  ">Don't take our word for it</h2>
+                    <p class="text-[1.25rem] text-base">Here's what our students are saying on facebook about
+                        <a class="text-blue-500 p-[0.25rem]" href="facebook.com">khpal tech</a>
+                        and
+                        <a class="text-blue-500 p-[0.25rem]" href="fiverr.com">shahid tech</a>
+                    </p>
+                </div>
+
+                <ul
+                    class="w-[90%] max-w-[80rem] gap-[1rem] md:gap-10 p-0 grid sm-[400px]:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-[1rem] mx-auto">
+                    <li class="bg-gray-50 p-[0.5rem] rounded-md shadow-lg">
+                        <figure class="m-0">
+                            <figcaption class="flex flex-col justify-center items-center">
+                                <img class="rounded-full border-2 border-slate-900 mb-4"
+                                    src="./src/assets/images/client.webp" width="96" height="96" loading="lazy"
+                                    alt="Mudiaga profile ">
+                                <cite class="mb-[0.5rem] italic font-semibold">Mudiaga Moody Uwojeya Esq</cite>
+                                <address class="m-0 ">
+                                    <a href=""
+                                        class="text-blue-400 text-base rounded-md hover:bg-slate-300 p-[0.25rem]">@MoodyMudiaga</a>
+                                </address>
+                            </figcaption>
+                            <blockquote class="my-[1.5rem] mx-[0.25rem] text-center italic ">Now, though, everything
+                                seem so easy and the course is not over yet. Thanks to
+                                @maxedapps I'm learning JS the way I wanted to.</blockquote>
+                        </figure>
+                    </li>
+                    <li class="bg-gray-50 p-[0.5rem] rounded-md shadow-lg">
+                        <figure class="m-0">
+                            <figcaption class="flex flex-col justify-center items-center">
+                                <img class="rounded-full border-2 border-slate-900 mb-4"
+                                    src="./src/assets/images/erik-twitter-profile-picture_uflkea.webp" width="96"
+                                    height="96" loading="lazy" alt="Mudiaga profile ">
+                                <cite class="mb-[0.2rem] italic font-semibold">Erik J Brown</cite>
+                                <address class="m-0 text-lg">
+                                    <a href=""
+                                        class="text-blue-400 text-base rounded-md hover:bg-slate-300 p-[0.25rem]">@erkjbro</a>
+                                </address>
+                            </figcaption>
+                            <blockquote class="my-[1rem] mx-[0.25rem] text-center text-[15px] italic ">I've picked up
+                                several of
+                                @maxedapps courses and all the ones that I've completed have been great. They really
+                                helped me progress as a developer. 💪🧑‍💻 If you're looking to invest in yourself
+                                professionally then you can't go wrong with @academind_real. 🤩</blockquote>
+                        </figure>
+                    </li>
+                    <li class="bg-gray-50 p-[0.5rem] rounded-md shadow-lg">
+                        <figure class="m-0">
+                            <figcaption class="flex flex-col justify-center items-center">
+                                <img class="rounded-full border-2 border-slate-900 mb-4"
+                                    src="./src/assets/images/neeraj-twitter-profile-picture_mofhyg.webp" width="96"
+                                    height="96" loading="lazy" alt="Mudiaga profile ">
+                                <cite class="mb-[0.5rem] italic font-semibold">Mudiaga Moody Uwojeya Esq</cite>
+                                <address class="m-0 text-lg">
+                                    <a href=""
+                                        class="text-blue-400 text-base rounded-md hover:bg-slate-300 p-[0.25rem]">@neerajdask</a>
+                                </address>
+                            </figcaption>
+                            <blockquote class="my-[1.5rem] mx-[0.25rem] text-center italic ">Now, though, everything
+                                seem so easy and the course is not over yet. Thanks to
+                                @maxedapps I'm learning JS the way I wanted to.</blockquote>
+                        </figure>
+                    </li>
+                    <li class="bg-gray-50 p-[0.5rem] rounded-md shadow-lg">
+                        <figure class="m-0">
+                            <figcaption class="flex flex-col justify-center items-center">
+                                <img class="rounded-full border-2 border-slate-900 mb-4"
+                                    src="./src/assets/images/josh-twitter-profile-picture_zswe5o.jpg" width="96"
+                                    height="96" loading="lazy" alt="Mudiaga profile ">
+                                <cite class="mb-[0.5rem] italic font-semibold">Josh Fair</cite>
+                                <address class="m-0 text-lg">
+                                    <a href=""
+                                        class="text-blue-400 text-base  rounded-md hover:bg-slate-300 p-[0.25rem]">@evilwebgenius</a>
+                                </address>
+                            </figcaption>
+                            <blockquote class="my-[1.5rem] mx-[0.25rem] text-center italic ">Your courses are always so
+                                great and informative. I honestly have to say I owe so much of my career to your
+                                teachings. Thank you so much for all the knowledge you bring to this field.
+                            </blockquote>
+                        </figure>
+                    </li>
+                    <li class="bg-gray-50 p-[0.5rem] rounded-md shadow-lg">
+                        <figure class="m-0">
+                            <figcaption class="flex flex-col justify-center items-center">
+                                <img class="rounded-full border-2 border-slate-900 mb-4"
+                                    src="./src/assets/images/asher-twitter-profile-picture_fwxb7m.webp" width="96"
+                                    height="96" loading="lazy" alt="Mudiaga profile ">
+                                <cite class="mb-[0.5rem] italic font-semibold">Asher</cite>
+                                <address class="m-0 text-lg">
+                                    <a href=""
+                                        class="text-blue-400 text-base rounded-md hover:bg-slate-300 p-[0.25rem]">@imjustasher</a>
+                                </address>
+                            </figcaption>
+                            <blockquote class="my-[1.5rem] mx-[0.25rem] text-center italic ">Spent the day working
+                                through @maxedapps MERN course, loving the explanations as we’re building an interesting
+                                project! Great start to the week 🙏</blockquote>
+                        </figure>
+                    </li>
+                    <li class="bg-gray-50 p-[0.5rem] rounded-md shadow-lg">
+                        <figure class="m-0">
+                            <figcaption class="flex flex-col justify-center items-center">
+                                <img class="rounded-full border-2 border-slate-900 mb-4"
+                                    src="./src/assets/images/bobby-twitter-profile-picture_ludpox.jpg" width="96"
+                                    height="96" loading="lazy" alt="Mudiaga profile ">
+                                <cite class="mb-[0.2rem] italic font-semibold">Bobby Valenzuela</cite>
+                                <address class="m-0 text-lg">
+                                    <a href=""
+                                        class="text-blue-400 text-base rounded-md hover:bg-slate-300 p-[0.25rem]">@bobbyv231</a>
+                                </address>
+                            </figcaption>
+                            <blockquote class="my-[1rem] mx-[0.25rem] text-center text-[15px] italic ">What a great idea
+                                for a course! Something perfect for me. I just got my first Software Developer job
+                                today! Thank you for all your training and assistance Max! Your courses have helped me
+                                tremendously. Many thanks!</blockquote>
+                        </figure>
+                    </li>
+
+                </ul>
+            </section>
+            <!--  -->
+            <section>
+
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>

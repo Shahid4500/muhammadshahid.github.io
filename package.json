@@ -1,0 +1,23 @@
+{
+  "name": "shahid.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shahid4500/shahid.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shahid4500/shahid.github.io/issues"
+  },
+  "homepage": "https://github.com/Shahid4500/shahid.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
